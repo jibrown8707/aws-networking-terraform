@@ -126,9 +126,9 @@ Deletes all provisioned resources after testing to avoid unnecessary AWS charges
 
 ## Notes
 
-- This project was built for learning and portfolio demonstration purposes.
+- This project was designed to demonstrate foundational AWS networking and Infrastructure as Code skills using Terraform.
 - Resources were destroyed after deployment to avoid ongoing AWS charges.
 - The private EC2 instance was placed in a private subnet to demonstrate controlled outbound internet access through a NAT gateway.
 - The public EC2 instance was placed in a public subnet to demonstrate internet-accessible placement.
-- Block Public Access at the VPC level was left off because this was a networking lab focused on route design, subnet segmentation, gateway usage, and connectivity behavior rather than production hardening.
+- Block Public Access at the VPC level was left off because this project focused on network design, subnet segmentation, route behavior, and connectivity rather than production hardening controls.usage, and connectivity behavior rather than production hardening.
 

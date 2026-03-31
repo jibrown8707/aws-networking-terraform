@@ -126,7 +126,7 @@ Deletes all provisioned resources after testing to avoid unnecessary AWS charges
 
 ## Notes
 
-- This project was designed to demonstrate foundational AWS networking and Infrastructure as Code skills using Terraform.
+- This project was designed to demonstrate AWS networking and Infrastructure as Code skills using Terraform.
 - Resources were destroyed after deployment to avoid ongoing AWS charges.
 - The private EC2 instance was placed in a private subnet to demonstrate controlled outbound internet access through a NAT gateway.
 - The public EC2 instance was placed in a public subnet to demonstrate internet-accessible placement.
